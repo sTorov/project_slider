@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Slider</title>
+        <link rel="stylesheet" href="./static/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <section class="projects">
+
+            <div class="container">
+                <div class="projects-container">
+
+                    <h2 class="subtitle projects-subtitle">Completed projects</h2>
+
+                    <p class="projects-text">
+                        Only a small part of the work performed by our company is presented 
+                        on the site.For 14 years on in the construction<br>
+                        market we have made happy more than 1000 families
+                    </p>
+
+                    <div class="projects-block">
+
+                        <div class="projects-text-block">
+                            <h3 class="subtitle projects-text-block-subtitle">City:</h3>
+                            <p class="projects-text-block-item js-text-block">
+                                Rostov-on-Don LCD admiral
+                            </p>
+                        </div>
+
+                        <div class="projects-text-block">
+                            <h3 class="subtitle projects-text-block-subtitle">Apartment area:</h3>
+                            <p class="projects-text-block-item js-text-block">
+                                81 m2
+                            </p>
+                        </div>
+
+                        <div class="projects-text-block">
+                            <h3 class="subtitle projects-text-block-subtitle">Repair time:</h3>
+                            <p class="projects-text-block-item js-text-block">
+                                3.5 months
+                            </p>
+                        </div>
+                        
+                        <div class="projects-text-block">
+                            <h3 class="subtitle projects-text-block-subtitle">Repair Cost:</h3>
+                            <p class="projects-text-block-item js-text-block">
+                                Upon request
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="projects-selector-group">
+                        <img class="arrow js-left-arrow" src="./static/img/arrow_left.svg" alt="left arrow icon">
+                        <div class="circle js-circle" data-active></div>
+                        <div class="circle js-circle"></div>
+                        <div class="circle js-circle"></div>
+                        <img class="arrow js-right-arrow" src="./static/img/arrow_right.svg" alt="right arrow icon">
+                    </div>
+
+                    <div class="projects-view">
+
+                        <ul class="projects-view-selector js-selector-bar">
+                            <li class="projects-view-selector-item">Rostov-on-Don, Admiral</li>
+                            <li class="projects-view-selector-item">Sochi Thieves</li>
+                            <li class="projects-view-selector-item">Rostov-on-Don Patriotic</li>
+                        </ul>
+
+                        <img class="slide js-slide" src="./static/img/slide_1.jpg" alt="view_info_img">
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <script defer src="./static/slider.js"></script>
+    </body>
+</html>
